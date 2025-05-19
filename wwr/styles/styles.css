@@ -1,0 +1,188 @@
+#content {
+    max-width: 1200xp;
+    margin: 0 auto }
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;         
+}
+
+#hero-msg h1,
+#hero-msg h4 {
+  text-align: center;
+}
+
+#hero-msg {
+  text-align: center;
+}
+
+.button-box {
+  text-align: center;
+}
+
+main section {
+  text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+  background-color: #f1f1f1; 
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+
+header {
+  background-color: #2a9d8f; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+nav a:hover {
+  background-color: #0077b6; 
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+
+.book, .join {
+  background-color: #2a9d8f; 
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+
+.book:hover, .join:hover {
+  background-color: #0077b6; 
+  transform: scale(1.05);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+
+#background {
+  background-color: #caf0f8; 
+  padding: 60px 20px;
+  text-align: center;
+}
+
+
+.msg {
+  background-color: white;
+  padding: 30px;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+footer {
+  background-color: #0077b6; 
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+
+
+body {
+  background-color: #f1f1f1; 
+  color: #222; 
+  font-family: 'Arial', sans-serif;
+  padding: 0 15px;
+}
+
+
+header {
+  background-color: #1b4332; 
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  background-color: #52b788; 
+  color: #003d2e; 
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  text-decoration: underline;
+}
+
+
+.book, .join {
+  background-color: #40916c; 
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+
+.book:hover, .join:hover {
+  background-color: #0077b6; 
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+
+#background {
+  background-color: #caf0f8; 
+  padding: 60px 20px;
+  text-align: center;
+  color: #003049; 
+}
+
+
+.msg {
+  background-color: #ffffff;
+  color: #222222;
+  padding: 30px;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+footer {
+  background-color: #023e8a; 
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+
+.icon {
+    width: 80px;
+}
+
+
+
+
