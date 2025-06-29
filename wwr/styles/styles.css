@@ -222,6 +222,18 @@ footer .social img {
     z-index: -1;
 }
 
+.card2-img {
+    border: 10px solid #d9c2a3;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+.rivers-msg {
+    padding-top: 20px;
+    font-size: 4em;
+    text-align: center;
+    color:#d9c2a3;
+    font-family:cursive; 
+}
 .msg {
     grid-column: 7/11;
     grid-row: 7/8;
@@ -248,19 +260,17 @@ main section img {
 
 /* page 2 css */
 #rivers-content {
-    max-width: 1600px;
+    max-width: 2000px;
+ 
     width: 100%;
     margin: 0 auto;
     align-items: center;
 }
 
 .rivers-img {
-    max-width: 1600px;
-    width: 100%; 
-}
+    max-width: 2000px;
+   
 
-.rivers-msg {
-    
 }
 
 .rivers-grid {
