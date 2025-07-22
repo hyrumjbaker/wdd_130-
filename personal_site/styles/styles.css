@@ -3,6 +3,7 @@
     width: 100%;
     margin: 0 auto;
     align-items: center;
+    height: 100px;
 }
 
 #hero {
@@ -19,6 +20,7 @@
 
 #hero-img {
     width: 100%; 
+    z-index: -1;
 }
 
 #hero-msg h1 {
@@ -64,12 +66,12 @@ h2 {
 }
 
 header {
-    height: 50px;
+    height: 250px;
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #2F2F2F;
     color:#d9c2a3;
-    padding-bottom: 190px;
+    z-index: index 1;
 }
 
 .logo {
@@ -232,15 +234,11 @@ main section img {
 .woodworking-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* grid-template-rows: repeat(9,1fr); */
     width: 100%;
     max-width: 100%;
     min-height: 100vh;
     margin-bottom: 200px;
-    justify-content: start;
     gap: 20px;
-
-
 }
 
 .card2-img {
@@ -339,6 +337,55 @@ main section img {
 
 .desk-card {
     padding-top: 25px;
+}
+
+/* page 3 css */
+
+/* Apply to everything */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* GRID CONTAINER */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 columns */
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Let the intro section span all 4 columns */
+.biography-card {
+  grid-column: span 3;
+}
+
+/* Section wrappers (e.g. deck1-card, deck2-card...) */
+.projects-grid section {
+  width: 100%;
+}
+
+/* Images */
+.card3-img {
+  width:auto;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+   border: 2px solid black;
+}
+
+.before-card {
+    padding-top: 50px;
+}
+
+.deck1-card {
+    padding-top: 50px;
+}
+
+.deck2-card {
+    padding-top: 50px;
 }
 
 
